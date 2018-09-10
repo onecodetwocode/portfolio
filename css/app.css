@@ -1,1 +1,28 @@
-.cell{border:1px solid red;}
+.cell{border:1px solid blue;}
+.grid-x{border:1px solid red;}
+/*nav{
+  text-align: center; <!-- makes the links in the nav move to the center instead of the right -->
+}
+
+li{
+  display:inline; <!-- this makes the links move next to eachother instead of being on top of eachother -->
+
+}*/
+
+.menu{background-color: #99957e;}
+
+#main{
+  margin-top: 1em;
+}
+ a:link{
+   text-decoration: none;
+ }
+ a:visited{
+   text-decoration: none;
+ }
+ a:hover{
+   text-decoration: none;
+ }
+ a:active{
+   text-decoration: none;
+ }
