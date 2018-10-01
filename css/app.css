@@ -1,5 +1,5 @@
-/*.cell{border:1px solid blue;}
-.grid-x{border:1px solid red;}*/
+.cell{border:1px solid blue;}
+.grid-x{border:1px solid red;}
 .title-bar{background-color:rgb(255, 255, 255);}
 .title-bar-left{color:black;}
 
@@ -57,7 +57,7 @@ li>a{
 color: black;
 }
 a{
-  display: inline;
+  display: inline;   <!-- maybe delete this -->
 }
 p{
   color: black;
