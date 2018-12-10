@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-color: black;
+}
+img{
+transition: transform 2s;
+display: block;
+margin-right: auto;
+margin-left: auto;
+top:50px;
+position: relative;
+border-radius: 50px;
+}
+
+img:active{transform: rotate(360deg);}
+
+div.one{
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  position: relative;
+  left: 700px;
+  top: -540px;
+  animation: down1 10s infinite;
+}
+
+div.one:hover{animation-play-state: paused;}
+
+@keyframes down1 {
+  0%{top:-540px;left: 700px;}
+  10%{top: -515px;left: 600px;}
+  20%{top: -390px;left: 650px;}
+  30%{top: -300px;left: 700px;}
+  40%{top: -200px;left: 700px;}
+  50%{top: -180px;left: 650px;}
+  60%{top: -46px;left: 600px;}
+  70%{top: -25px;left:700px;width: 10px;}
+  80%{top: -46px;left: 800px;}
+  90%{top: -180px;left: 750px;}
+  92%{top: -200px;left: 700px;}
+  94%{top: -350px;left: 700px;}
+  96%{top: -390px;left: 750px;}
+  97%{top: -540px;left: 780px;}
+  100%{top:-540px;left: 700px;}
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+
+
+  <img src="wait.png" >
+
+  <div class="one"> </div>
+
+  <div class="two"> </div>
+
+  <div class="three"> </div>
+
+
+
+</body>
+</html>

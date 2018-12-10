@@ -1,0 +1,214 @@
+<!doctype html>
+
+
+<!-- one hover make the letters do a 360 turn -->
+
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <!-- <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css"> -->
+
+  <style>
+
+body{
+  background: black;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+  div.one{
+  	width:70px;
+      height:70px;
+      border-radius:55px;
+      background-color: yellow;
+      animation:bounce1 3.3s infinite;
+      text-align: center;
+      line-height: 70px;
+      position:absolute;
+      transition: transform 1s;
+  }
+
+  div.one:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.two:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.three:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.four:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.five:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.six:hover{transform: rotate(360deg);animation-play-state: paused;}
+  div.seven:hover{transform: rotate(360deg);animation-play-state: paused;}
+
+
+    @keyframes bounce1 {
+  	0% {background-color:#FF00A5; top:0px;opacity: 0;}
+    50% {background-color:#4ED1D5 ;top:350px;opacity: 1;}
+    100%{background-color:red;top:0px;opacity: 0;}
+  }
+
+    div.two{
+      width:70px;
+      height:70px;
+      left:100px;
+      text-align: center;
+      line-height: 70px;
+      background-color: yellow;
+      border-radius:55px;
+      animation:bounce2 2.3s infinite;
+      position:absolute;
+      transition: transform 1s;
+    }
+
+    @keyframes bounce2 {
+    0% {background-color:#8DB3BD ; top:0px;opacity: 0;}
+    50% {background-color:#F0A62E ; top:240px;opacity: 1;}
+    100%{background-color:#88BDBC; top:0px;opacity: 0;}
+  }
+
+  div.three{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 55px;
+    background-color: yellow;
+    animation:bounce3 4s infinite;
+    position:absolute;
+    left:230px;
+    transition: transform 1s;
+  }
+
+    @keyframes bounce3 {
+      0%{background-color: green;top:0px;opacity: 0;}
+      50%{background-color: fuchsia ;top:333px;opacity: 1;}
+      100%{background-color:red;top:0px;opacity: 0;}
+    }
+
+    div.four{
+      width:70px;
+      height: 70px;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 55px;
+      background-color: red;
+      animation:bounce4 4s 1s infinite;
+      left: 350px;
+      position: absolute;
+      transition: transform 1s;
+    }
+
+    @keyframes bounce4 {
+      0%{background-color:#14A76C ;top:0px;opacity: 0;}
+      50%{background-color:#FFE400 ;top:180px;opacity: 1;}
+      100%{background-color:#88BDBC;top:0px;opacity: 0;}
+    }
+
+    div.five{
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 55px;
+      background-color: purple;
+      animation: bounce5 4s 0.4s infinite;
+      left: 450px;
+      position: absolute;
+      transition: transform 1s;
+    }
+
+    @keyframes bounce5 {
+      0%{background-color: blue; top:0px;opacity: 0;}
+      50%{background-color: darkviolet; top:290px;opacity: 1;}
+      100%{background-color: red; top:0px;opacity: 0;}
+    }
+
+    div.six{
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 55px;
+      background-color: yellow;
+      animation: bounce6 3.1s  infinite;
+      left: 550px;
+      position: absolute;
+      transition: transform 1s;
+    }
+
+    @keyframes bounce6 {
+      0%{background-color:#10E7DC ;top:0px;opacity: 0;}
+      50%{background-color:#1B9CE5 ; top:200px;opacity: 1;}
+      100%{background-color:#F79E02 ; top:0px;opacity: 0;}
+    }
+
+    div.seven{
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      line-height: 70px;
+      border-radius: 55px;
+      background-color: yellow;
+      animation: bounce7 2.8s 0.3s infinite;
+      left: 650px;
+      position: absolute;
+      transition: transform 1s;
+    }
+
+    @keyframes bounce7 {
+      0%{background-color:#C34271 ;top:0px;opacity: 0;}
+      50%{background-color:#16FFBD ;top:350px;opacity: 1;}
+      100%{background-color:#12C998 ;top:0px;opacity: 0;}
+    }
+
+
+
+    div.box{
+      width:700px;
+      height:400px;
+      left: 370px;
+      border-radius: 25px;
+      top:80px;
+      border:3px dashed black;
+      position:relative;
+      background-color: black;
+    }
+
+  </style>
+
+</head>
+
+<body>
+    <div class="box">
+  <div class="one"> L </div>
+
+  <div class="two"> O </div>
+
+  <div class="three"> A </div>
+
+  <div class="four"> D</div>
+
+  <div class="five"> I</div>
+
+  <div class="six"> N</div>
+
+  <div class="seven"> G</div>
+
+
+
+</div>
+
+
+
+
+    <!-- <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script> -->
+</body>
+
+</html>
